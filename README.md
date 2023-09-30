@@ -1,6 +1,6 @@
 # 🌊 Easy Eel
 
-Dive into a minimalistic command line experience with Easy Eel for the Fish shell. With comprehensive customization features, you can tailor the theme to your liking.
+Dive into a minimalistic command line experience with Easy Eel for the Fish shell. With comprehensive customization features, you can tailor the theme to your liking. And to brighten your sessions, expect unique, ocean-themed greetings each time!
 
 <img src="https://github.com/pgolebiowski/theme-easy-eel/assets/7394091/ff5920f6-721a-4d49-823c-b2dfbda530a4" alt="Demonstration of the Easy Eel theme in action: showcasing user, host, directory, Git branch, and repository states. Also illustrates the outcome-based color change of the prompt indicator." width="75%">
 
@@ -15,6 +15,7 @@ omf install https://github.com/pgolebiowski/theme-easy-eel
 ## 🌟 Features
 
 - 🐠 **Clean Interface.** A straightforward and uncluttered prompt.
+- 🌅 **Oceanic Greetings.** Get inspired with sea-themed messages every time you open a new terminal session.
 - 🛠️ **Granular Customization.** Tailor the theme to your needs, from aesthetics to behavior.
 
 ## 🦑 Customization
@@ -30,6 +31,12 @@ Easy Eel provides two distinct avenues for personalization:
 <img src="https://github.com/pgolebiowski/theme-easy-eel/assets/7394091/e19ef564-62fa-4f85-88b6-32a9ed306c68" alt="Showcasing the use of an override function to replace the default user name. Here, the `easy_eel_user_override` function is defined to change the user name to 'Dockside Dave' in the prompt." width="75%">
 
 ## 📚 Documentation
+
+### Greeting 
+
+- **Purpose:** Welcome users with random ocean-themed inspirations.
+- **Default:** A collection of light-hearted and encouraging ocean-themed greetings to kickstart your terminal session.
+- **Override:** `easy_eel_override_greeting`
 
 ### Title
 
